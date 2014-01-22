@@ -10,8 +10,8 @@ namespace LearnXNAGame.Maps.HexagonMap
 {
 	public class HexagonMapCell : IMapCell
 	{
-		public float X { get; set; }
-		public float Y { get; set; }
+		public int X { get; set; }
+		public int Y { get; set; }
 		public float R { get; set; }
 		public bool IsHover { get; set; }
 		public float PhysicalX { get; private set; }
@@ -28,7 +28,7 @@ namespace LearnXNAGame.Maps.HexagonMap
 			get { return (IMapCellNeighbor<IMapCell>)this.Neighbors; }
 		}
 
-		public HexagonMapCell(float x, float y, float r)
+		public HexagonMapCell(int x, int y, float r)
 		{
 			this.Neighbors = new HexagonNeighbor();
 			this.X = x;

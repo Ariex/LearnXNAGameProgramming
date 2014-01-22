@@ -24,7 +24,7 @@ namespace LearnXNAGame
 
 		Texture2D txt2d;
 
-		IMap map = new HexagonMap(100, 100, 10);
+		IMap map = new HexagonMap(1000, 1000, 3);
 
 		SpriteFont font;
 
@@ -98,8 +98,9 @@ namespace LearnXNAGame
 			{
 				this.map.Drag(x, y);
 			}
-			else {
-				
+			else
+			{
+				this.map.Release(x, y);
 			}
 			base.Update(gameTime);
 		}

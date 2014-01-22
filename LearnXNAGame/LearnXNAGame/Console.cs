@@ -30,7 +30,7 @@ namespace LearnXNAGame
 			this.logs = new List<Tuple<string, int>>();
 			copy.ForEach(l =>
 			{
-				this.sb.DrawString(this.font, l.Item1, new Microsoft.Xna.Framework.Vector2(0, l.Item2 * 14), Microsoft.Xna.Framework.Color.Black);
+				this.sb.DrawString(this.font, l.Item1, new Microsoft.Xna.Framework.Vector2(0, l.Item2 * 14), Microsoft.Xna.Framework.Color.Red);
 			});
 			copy.Clear();
 		}
