@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnXNAGame", "LearnXNAGame\LearnXNAGame\LearnXNAGame.csproj", "{F65D5EE5-FECD-4F3C-8B66-21BC99BBEE4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnXNAGameContent", "LearnXNAGame\LearnXNAGameContent\LearnXNAGameContent.contentproj", "{3AF1505C-8B68-43DF-8971-13B64243EEA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F65D5EE5-FECD-4F3C-8B66-21BC99BBEE4B}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{F65D5EE5-FECD-4F3C-8B66-21BC99BBEE4B}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{F65D5EE5-FECD-4F3C-8B66-21BC99BBEE4B}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{F65D5EE5-FECD-4F3C-8B66-21BC99BBEE4B}.Debug|x86.ActiveCfg = Debug|x86
+		{F65D5EE5-FECD-4F3C-8B66-21BC99BBEE4B}.Debug|x86.Build.0 = Debug|x86
+		{F65D5EE5-FECD-4F3C-8B66-21BC99BBEE4B}.Release|Any CPU.ActiveCfg = Release|x86
+		{F65D5EE5-FECD-4F3C-8B66-21BC99BBEE4B}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{F65D5EE5-FECD-4F3C-8B66-21BC99BBEE4B}.Release|Mixed Platforms.Build.0 = Release|x86
+		{F65D5EE5-FECD-4F3C-8B66-21BC99BBEE4B}.Release|x86.ActiveCfg = Release|x86
+		{F65D5EE5-FECD-4F3C-8B66-21BC99BBEE4B}.Release|x86.Build.0 = Release|x86
+		{3AF1505C-8B68-43DF-8971-13B64243EEA3}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{3AF1505C-8B68-43DF-8971-13B64243EEA3}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{3AF1505C-8B68-43DF-8971-13B64243EEA3}.Debug|x86.ActiveCfg = Debug|x86
+		{3AF1505C-8B68-43DF-8971-13B64243EEA3}.Release|Any CPU.ActiveCfg = Release|x86
+		{3AF1505C-8B68-43DF-8971-13B64243EEA3}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{3AF1505C-8B68-43DF-8971-13B64243EEA3}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
